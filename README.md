@@ -37,19 +37,19 @@ Brief Instructions
 
     python proto_top.py
 
-7.1, The GUI will be like
+8, The GUI will be like
 
 ![](https://github.com/sunwu555/MultiAlgoForNNProb/blob/master/UI.png)
     
-7.2, First, enter the name of data file into the box from upper left(Arrow 1).
+8.1, First, enter the name of data file into the box from upper left(Arrow 1)e.g:"test.txt". The input format should be like the sample format.
 
-7.3, Second, hit Input(Arrow 2).
+8.2, Second, hit Input(Arrow 2).
 
-7.4, Third, enter the query point into the box from upper right(Arrow 3, the format should be like the image shows).
+8.3, Third, enter the query point into the box from upper right(Arrow 3, the format should be like the image shows).
 
-7.5, Then, hit Query(Arrow 4).
+8.4, Then, hit Query(Arrow 4).
 
-7.6, Finally the results will be shown in the big box.(Arrow 5)
+8.5, Finally the results will be shown in the big box.(Arrow 5)
 
 Reference
 ---
