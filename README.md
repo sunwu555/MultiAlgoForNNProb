@@ -15,7 +15,7 @@ Brief Instructions
     
 2, Go to LSHash_Master directory. 
     
-    cd xx/LSHash_Master
+    cd LSHash_Master
         
 3, Install the LSHash library by
 
@@ -23,7 +23,7 @@ Brief Instructions
     
 4, Go to kd-tree directory.
 
-    cd xx/kd-tree
+    cd kd-tree
     
 5, Install the kd-tree libarary by 
 
