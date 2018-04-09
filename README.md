@@ -40,6 +40,17 @@ Brief Instructions
 7.1, The UI will be like
 
     ![](https://github.com/sunwu555/MultiAlgoForNNProb/blob/master/UI.png)
+    
+7.2, First, enter the name of data file into the box from upper left(Arrow 1).
+
+7.3, Second, hit Input(Arrow 2).
+
+7.4, Third, enter the query point into the box from upper right(Arrow 3, the format should be like the image shows).
+
+7.5, Then, hit Query(Arrow 4).
+
+7.6, Finally the results will be shown in the big box.
+
 Reference
 ---
 
