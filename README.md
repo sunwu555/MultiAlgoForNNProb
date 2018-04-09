@@ -13,6 +13,19 @@ Brief Instructions
 
     git clone https://github.com/sunwu555/MultiAlgoForNNProb.git
     
-2, Go to LSHash_Master directory. Install the library by
+2, Go to LSHash_Master directory. 
+    
+    cd xx/LSHash_Master
+        
+3, Install the LSHash library by
 
     pip install e .
+    
+4, Go to kd-tree directory.
+
+    cd xx/kd-tree
+    
+5, Install the kd-tree libarary by 
+
+    pip install e .
+    
