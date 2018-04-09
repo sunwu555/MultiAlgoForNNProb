@@ -29,6 +29,17 @@ Brief Instructions
 
     pip install e .
     
+6, Go to the MultiAlgoForNNProb-master directory.
+
+    cd MultiAlgoForNNProb-master
+
+7, Open the proto_top.py by
+
+    python proto_top.py
+
+7.1, The UI will be like
+
+    
 Reference
 ---
 
