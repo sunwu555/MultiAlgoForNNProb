@@ -8,3 +8,6 @@ The multi-algo-for-nn is an local application which could help user quickly usin
 
 Brief Instructions
 ---
+
+First, clone our whole project into your computer.
+Then, cd to LSHash_Master directory. Open the terimnal, type "pip install e ."
