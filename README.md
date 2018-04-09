@@ -39,7 +39,7 @@ Brief Instructions
 
 7.1, The UI will be like
 
-    
+    ![](https://github.com/sunwu555/MultiAlgoForNNProb/blob/master/UI.png)
 Reference
 ---
 
