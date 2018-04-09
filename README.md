@@ -39,7 +39,7 @@ Brief Instructions
 
 7.1, The UI will be like
 
-    ![](https://github.com/sunwu555/MultiAlgoForNNProb/blob/master/UI.png)
+    <img align="center" width="250" src=UI.png>
     
 7.2, First, enter the name of data file into the box from upper left(Arrow 1).
 
