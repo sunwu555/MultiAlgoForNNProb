@@ -37,9 +37,9 @@ Brief Instructions
 
     python proto_top.py
 
-7.1, The UI will be like
+7.1, The GUI will be like
 
-    <img align="center" width="250" src=UI.png>
+![](https://github.com/sunwu555/MultiAlgoForNNProb/blob/master/UI.png)
     
 7.2, First, enter the name of data file into the box from upper left(Arrow 1).
 
