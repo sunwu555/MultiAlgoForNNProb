@@ -49,7 +49,7 @@ Brief Instructions
 
 7.5, Then, hit Query(Arrow 4).
 
-7.6, Finally the results will be shown in the big box.
+7.6, Finally the results will be shown in the big box.(Arrow 5)
 
 Reference
 ---
