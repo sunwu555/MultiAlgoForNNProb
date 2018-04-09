@@ -1,5 +1,5 @@
 import tkinter as tk
-import lsh
+import lsh_504
 import kd_tree
 
 def main():
@@ -10,6 +10,9 @@ def main():
     global LSHTime
     global KdTreeResult
     global KdTreeTime
+    global lsh2
+    global kdtree2
+    
     root = tk.Tk()
     root.geometry('600x390')
     root.title('test')
@@ -66,12 +69,11 @@ def get_input():
     global LSHTime
     global KdTreeResult
     global KdTreeTime
-    
     global lsh2
     global kdtree2
     
     FileName = InputFile.get()
-    lsh2 = lsh.get_lshash(FileName)
+    lsh2 = lsh_504.get_lshash(FileName)
     kdtree2 = kd_tree.kdtree(FileName)
     LSHResult.set('Please input query data')
     LSHTime.set('Please input query data')
@@ -86,15 +88,23 @@ def get_query():
     global LSHTime
     global KdTreeResult
     global KdTreeTime
-
+    global lsh2
+    global kdtree2
     data = InputQuery.get()
-
+    print("----------")
+    print(lsh2)
+    print("----------")
     ans1 = []
-    ans1 = lsh.lsh_query(data,lsh2)
+    print("----------")
+    print(lsh_504.lsh_query(data,lsh2))
+    print("----------")
+    print(ans1)
+    print("---------- ans1")
+    ans1 = lsh_504.lsh_query(data,lsh2)
     a1 = ans1[0]
     b1 = ans1[1]
     c1 = ans1[2]
-    LSHResult.set(a1 + 'n' + c1)
+    LSHResult.set(a1 + '\n' + c1)
     LSHTime.set(b1)
 
     ans2 = []
