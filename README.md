@@ -29,3 +29,13 @@ Brief Instructions
 
     pip install e .
     
+Reference
+---
+
+For the implementing of LSHash, 
+
+>>>This function was built from (https://github.com/kayzhu/LSHash).
+
+For the implementing of KD-TREE,, 
+
+>>>This function was built from (https://github.com/stefankoegl/kdtree).
