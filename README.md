@@ -9,5 +9,8 @@ The multi-algo-for-nn is an local application which could help user quickly usin
 Brief Instructions
 ---
 
-First, clone our whole project into your computer.
-Then, cd to LSHash_Master directory. Open the terimnal, type "pip install e ."
+1, Clone whole project into local computer.
+    git clone https://github.com/sunwu555/MultiAlgoForNNProb.git
+    
+2, Go to LSHash_Master directory. Install the library by
+    pip install e .
