@@ -11,12 +11,8 @@ Brief Instructions
 
 1, Clone whole project into local computer.
 
-    ···
     git clone https://github.com/sunwu555/MultiAlgoForNNProb.git
-    ···
     
 2, Go to LSHash_Master directory. Install the library by
 
-    ···
     pip install e .
-    ···
