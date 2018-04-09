@@ -45,7 +45,7 @@ Brief Instructions
 
 8.2, Second, hit Input(Arrow 2).
 
-8.3, Third, enter the query point into the box from upper right(Arrow 3, the format should be like the image shows).
+8.3, Third, enter the query point into the box from upper right(Arrow 3, the format should be like the image shows. Now the program only support 8-dimensions vector).
 
 8.4, Then, hit Query(Arrow 4).
 
