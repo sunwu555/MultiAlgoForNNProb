@@ -8,6 +8,11 @@ The multi-algo-for-nn is an local application which could help user quickly usin
 
 Brief Instructions
 ---
+### 04/09 Update
+>The shell script has implemented, now program can run by 
+    
+    /bin/sh start.sh
+---
 
 1, Clone whole project into local computer.
 
