@@ -99,7 +99,7 @@ def get_query():
     #print(lsh_504.lsh_query(data,lsh2))
     #print("----------")
     #print(ans1)
-    #print("--------- ans1")
+    print("-------- ans1")
     ans1 = lsh_504.lsh_query(data,lsh2)
     a1 = ans1[0]
     b1 = ans1[1]
