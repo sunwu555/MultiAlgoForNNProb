@@ -11,7 +11,14 @@ Brief Instructions
 ### 04/22 Update
 >Rewrite the code, now program can run by
 
+1, Clone whole project into local computer.
+
+    git clone https://github.com/sunwu555/MultiAlgoForNNProb.git
+    
+2, Open the proto_top.py by 
+    
     python proto_top.py
+        
 ---
 ### 04/09 Update
 >The shell script has implemented, now program can run by 
