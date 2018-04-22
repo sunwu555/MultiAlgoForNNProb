@@ -91,15 +91,15 @@ def get_query():
     global lsh2
     global kdtree2
     data = InputQuery.get()
-    print("----------")
-    print(lsh2)
-    print("----------")
+    #print("----------")
+    #print(lsh2)
+    #print("----------")
     ans1 = []
-    print("----------")
-    print(lsh_504.lsh_query(data,lsh2))
-    print("----------")
-    print(ans1)
-    print("---------- ans1")
+    #print("----------")
+    #print(lsh_504.lsh_query(data,lsh2))
+    #print("----------")
+    #print(ans1)
+    #print("--------- ans1")
     ans1 = lsh_504.lsh_query(data,lsh2)
     a1 = ans1[0]
     b1 = ans1[1]

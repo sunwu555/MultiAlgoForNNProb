@@ -28,23 +28,27 @@ def kdtree(filename):
         empty.add(point)
     return empty
 
-def result(string,empty):
+
+def result(string, empty):
     _input = []
     query = string.split(',')
     for i in range(8):
         _input.append(int(query[i]))
 
     start_time = time.time()
-    result = empty.search_nn([_input[0],_input[1], _input[2], _input[3], _input[4], _input[5], _input[6], _input[7]])
+    result = empty.search_nn([_input[0], _input[1], _input[2], _input[3], _input[4], _input[5], _input[6], _input[7]])
 
     T = "%s seconds" % (time.time() - start_time)
     a = str(result)
     b = a.split('(')
     distance = b[2].split(',')[9].split(')')[0]
     d = b[2].split(')')[0].split(',')[0:8]
-    coordinate = ""+d[0]+','+d[1]+','+d[2]+','+d[3]+','+d[4]+','+d[5]+','+d[6]+','+d[7]
+    coordinate = "" + d[0] + ',' + d[1] + ',' + d[2] + ',' + d[3] + ',' + d[4] + ',' + d[5] + ',' + d[6] + ',' + d[7]
     index = b[2].split(')')[0].split(',')[8]
-    str1 = "The nearest neighbor point's coordinate is :\n" + coordinate
-    str2 = T #"The time cost of kd-tree is : " + T
-    str3 = "The distance is : " + distance
-    return [str1,str2,str3]
+    str1 = "The nearest neighbor point's coordinate is : " + coordinate
+    str2 = "The time cost of kdtree is : " + T
+    str3 = "The distance between query point and neareast point is : " + distance
+    return [str1, str2, str3]
+
+kdtree('itemset.txt')
+print(result('1,2,3,4,5,6,7,8',empty))

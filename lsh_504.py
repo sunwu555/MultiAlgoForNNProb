@@ -1,4 +1,7 @@
+import sys
+sys.path.append(r"C:\Users\LSC\Desktop\ec504\MultiAlgoForNNProb\LSHash")
 from lshash import LSHash
+
 import time
 
 def get_lshash(filename):
@@ -20,9 +23,9 @@ def get_lshash(filename):
 
 def lsh_query(q,lsh):
     q = q.split(",")
-    print(q)
+    #print(q)
     q = list(map(float,q))
-    print(q)
+    #print(q)
     try:
         start_time = time.time()
         f = lsh.query(q,1)
