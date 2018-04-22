@@ -50,5 +50,5 @@ def result(string, empty):
     str3 = "The distance between query point and neareast point is : " + distance
     return [str1, str2, str3]
 
-kdtree('itemset.txt')
-print(result('1,2,3,4,5,6,7,8',empty))
+# kdtree('itemset.txt')
+# print(result('1,2,3,4,5,6,7,8',empty))

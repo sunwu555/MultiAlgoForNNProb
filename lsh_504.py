@@ -1,5 +1,6 @@
 import sys
-sys.path.append(r"C:\Users\LSC\Desktop\ec504\MultiAlgoForNNProb\LSHash")
+#sys.path.append(r"C:\Users\LSC\Desktop\ec504\MultiAlgoForNNProb")
+sys.path.append(r"./LSHash")
 from lshash import LSHash
 
 import time
